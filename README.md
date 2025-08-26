@@ -3,8 +3,8 @@ This repo is to document my **Python Open Sound Control (OSC)** research for ***
 
 ## Dependencies
 This research was conducted on
-1. GrandMA3 OnPC 2.2.5.2
-2. Visual Studio Code 1.99.3
+1. GrandMA3 OnPC 2.2.5.2 (GMA3)
+2. Visual Studio Code 1.99.3 (VSC)
 
 ## Getting Ready
 ### Visual Studio Code Terminal
@@ -22,12 +22,20 @@ py -m pip install python-osc
 ```
 ### GrandMA3
 1. Load the [GrandMA3 Show file](OSC_Project_2025S1.show). 
+Refer [Here](LoadShow.md) to know how to Load internally (Windows)
 
 2. Here we will configure the ***In & Out*** settings in order for **OSC** to work. Follow the steps shown in the images.
 ![To In&Out](To_In&Out.png)
 ![GrandMA3 OnPc In & Out](In&Out.png)
 ## Testing
-1. Open System Monitor
+1. Once you have set up **VSC** and **GMA3**. Test with the following.
+2. Run the python file in the terminal with this text
+```
+py GMA3_OSC.py
+```
+3. After running the code. You will see feedback in the System Monitor (1). You can also check in the attributes (2) 
+![GMA3](image.png)
+#########################################################
 
 # System Flowchart
 This flowchart explains how we are able to communicate internally through both programmes.
@@ -37,6 +45,7 @@ graph LR
 A[Visual Studio Code]
 B[GrandMA3 OnPC]
 
-A--Loopback Address (127.0.0.1)-->A
+A--127.0.0.1-->B
 A--Python-osc-->B
+
 ```
