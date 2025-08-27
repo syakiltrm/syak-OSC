@@ -9,7 +9,7 @@ This research was conducted on
 In this repo, you'll find out how to control **Pan & Tilt** attributes. [GMA3_OSC.py](GMA3_OSC.py) is a python script that you <u>edit and execute</u> in order to adjust *Pan & Tilt* attributes in **GrandMA3**. 
 
 ## Getting Ready
-### Visual Studio Code Terminal
+### 1. Visual Studio Code Terminal
 1. Copy *[GMA3_OSC.py](GMA3_OSC.py)* into your **VSC**
 
 2. Identify that you have installed *python* on your **Visual Studio Code (VSC)**. Type the following command in your **VSC Terminal**. If it shows something like python *3.x.x*, then python is installed.
@@ -23,7 +23,7 @@ py --version
 ```
 py -m pip install python-osc
 ```
-### GrandMA3
+### 2. GrandMA3
 1. Load the [GrandMA3 Show file](OSC_Project_2025S1.show). 
 Refer [Here](LoadShow.md) to know how to Load internally (Windows)
 
