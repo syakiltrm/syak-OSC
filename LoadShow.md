@@ -17,10 +17,10 @@ In this .md, you will learn how to load a GrandMA3 showfile internally on a Gran
 
 ### GrandMA3 OnPC:
 1. Navigate to Backup. Refer to the image below
-![To Load Page](Images\To_Load.png)
+![To Load Page](Images/To_Load.png)
 2. Click Load   
 3. Your .SHOW file that you pasted should appear here
-![alt text](Images\LoadPage.png)
+![alt text](Images/LoadPage.png)
 
 ## Extras
 Select your dependencies and Load.
